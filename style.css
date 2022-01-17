@@ -1,0 +1,436 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Signika', sans-serif;
+}
+#head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+h1{
+    color: #fff;
+    margin-left: .5em;
+}
+.links{
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 1em;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Signika', sans-serif;
+}
+#MyNameLogo{
+    height: 6em;
+    width: 10em;
+}
+#resume{
+    padding: .7em;
+    width: 7.5em;
+    margin-right: .7em;
+    font-family: 'Signika', sans-serif;
+    border-radius: 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #e6bab1;
+}
+.links:hover, .links:focus{
+    transition: 1s;
+    color: #f2a47d;
+}
+#resume:hover, #resume:focus{
+    transition: .6s;
+    color: #fff;
+    background-color: #000;
+}
+#intro{
+    margin-top: 1em;
+    width: 100%;
+    background-color: rgba(255, 228, 196, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#greet{
+    font-size: 2.2em;
+}
+#desc{
+    text-align: center;
+    font-size: 1.8em;
+}
+#myname{
+    color: #fff;
+    text-shadow: 0 0 8px cyan;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4em;
+}
+#front, #graph{
+    color: #fff;
+    text-shadow: 0 0 3px cyan;
+}
+#about_me{
+    width: 100%;
+    height: 40em;
+    background-color: rgb(21, 40, 58);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.headings{
+    text-transform: uppercase;
+    font-size: 4em;
+    text-align: center;
+    background: linear-gradient(to bottom, #93fbfb 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#infor{
+    width: 50%;
+    margin: 0 1em 0 3em;
+}
+#image{
+    margin: 4em 2em 0 0;
+}
+#github, #codepen{
+    text-decoration: none;
+    padding: 1em;
+    background-color: #FFF;
+    margin: 0 0 0 1.5em;
+    border-radius: 15px;
+    color: #000;
+}
+#github:hover, #codepen:hover, #github:focus, #codepen:focus{
+    transition: .5s;
+    color: #fff;
+    background-color: #000;
+}
+#my_skills{
+    width: 100%;
+    height: 45em;
+    background-color: #000;
+    color: #fff;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#skill_ic{
+    padding: 1.5em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.icons{
+    height: 7em;
+    width: 7em;
+    padding: 2em;
+}
+figure figcaption{
+    text-align: center;
+}
+figure:hover, figure:focus{
+    transition: .7s;
+    border-radius: 10px;
+    box-shadow: 0 0 20px forestgreen;
+    background-color: rgba(255, 255, 255, 0.452);
+    color: cyan;
+}
+#my_projects{
+    background-color: rgb(21, 40, 58);
+    width: 100%;
+    height: 75em;
+    color: #fff;
+}
+#proj_details{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#project_cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.project{
+    height: 15em;
+    width: 30em;
+    background-color: rgb(17, 17, 17);
+    margin: 1em;
+    border: 14px solid #000;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.project:hover, .project:focus{
+    box-shadow: 0 0 20px cyan;
+    cursor: pointer;
+}
+.title{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-shadow: 0 0 4px green;
+}
+.btn{
+    font-family: 'Signika', sans-serif;
+    background-color: #fff;
+    width: 7em;
+    height: 2em;
+    margin: 0 auto;
+    font-size: 1em;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+.btn:hover, .btn:focus{
+    transition: .7s;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+#foot{
+    background-color: rgba(0, 0, 0, 0.808);
+    text-align: center;
+    padding: 0 0 1em 0;
+}
+.foot_icons{
+    height: 3em;
+    width: 3em;
+
+    margin: 1em;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+#top, #foot_para{
+    font-size: 1.1em;
+    color: #fff;
+}
+#clg{
+    text-shadow: 0 0 4px forestgreen;
+}
+@media (max-width: 300px){
+    h1{
+        text-align: center;
+    }
+    .links{
+        font-size: 1em;
+    }
+    #resume{
+        text-align: center;
+
+    }
+}
+
+@media (min-width: 100px) and (max-width: 1100px){
+    #MyNameLogo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    h1{
+        margin: 0 auto;
+        margin-bottom: .5em;
+    }
+    .links{
+        font-size: .9em;
+        padding: .4em;
+    }
+    #resume{
+        margin-top: .7em;
+        padding: .3em;
+    }
+    #resume_link{
+        display: block;
+        /* text-align: center;
+        margin: 0 auto;
+        margin-top: .7em; */
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #nav_area{
+        margin-left: 2.5em;
+        margin-right: .5em;
+    }
+    #infor{
+        width: 100%;
+    }
+    #side{
+        height: 11em;
+        width: 11em;
+        margin-left: 4.5em;
+    }
+    #myname, .headings{
+        font-size: 2.5em;
+    }
+    #greet, #desc{
+        font-size: 1.2em;
+    }
+    #about_me{
+        height: 60em;
+    }
+    #my_skills{
+       height: 70em; 
+    }
+    .icons{
+        height: 2.5em;
+        width: 2.5em;
+        padding: .5em;
+    }
+    #my_projects{
+        height: 75em;
+    }
+    .project{
+        height: 7.5em;
+        width: 15em;
+        border: 7px solid #000;
+        border-radius: 7px;
+    }
+    .title{
+        font-size: .7em;
+    }
+    .description{
+        font-size: .5em;
+    }
+    .btn{
+        height: 1.7em;
+        font-size: .7em;
+    }
+
+    @media (min-width: 337px) and (max-width: 650px){
+        #my_skills{
+            height: 45em;
+        }
+        #side{
+            height: 15em;
+            width: 15em;
+            margin-left: 3.5em;
+        }
+        .icons{
+            height: 2.5em;
+            width: 2.5em;
+            padding: .5em;
+        }
+        #my_projects{
+            height: 87em;
+        }
+        .project{
+            height: 9.5em;
+            width: 19em;
+        }
+        .title, .description{
+            font-size: .75em;
+        }
+        #MyNameLogo{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #resume_link{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+    }
+    @media (min-width: 488px) and (max-width: 562px){
+        .icons{
+            height: 3em;
+            width: 3em;
+            padding: 1em;
+        }
+        #my_skills{
+            height: 45em;
+        }
+        #my_projects{
+            height: 108em;
+        }
+        .project{
+            height: 13em;
+            width: 25em;
+            border: 7px solid #000;
+            border-radius: 7px;
+        }
+        .title, .description{
+            font-size: 1em;
+        }
+        .btn{
+            font-size: 1em;
+        }
+        #side{
+            height: 15em;
+            width: 15em;
+            margin: 0 0 5em 8em;
+        }
+        .title, .description{
+            font-size: 1em;
+        }
+    }
+    @media (min-width: 563px) and (max-width: 907px){
+        #side{
+            height: 16em;
+            width: 16em;
+            margin-left: 12.5em;
+        }
+        #my_skills{
+            height: 32em;
+        }
+        .icons{
+            height: 2.9em;
+            width: 2.9em;
+        }
+        .project{
+            height: 13em;
+            width: 30em;
+        }
+        #my_projects{
+            height: 110em;
+        }
+        .title, .description{
+            font-size: 1em;
+        }
+        .btn{
+            font-size: 1em;
+        }
+    }
+    @media (min-width: 907px) and (max-width: 1100px){
+        #side{
+            height: 22em;
+            width: 22em;
+            margin-left: 20.5em;
+        }
+        #my_skills{
+            height: 45em;
+        }
+        .icons{
+            height: 6.5em;
+            width: 6.5em;
+            padding: 1em;
+        }
+        #my_projects{
+            height: 110em;
+        }
+        .project{
+            height: 13em;
+            width: 35em;
+        }
+        .title{
+            font-size: 1.2em;
+        }
+        .description{
+            font-size: 1em;
+        }
+        .btn{
+            font-size: 1em;
+        }
+    }
+}
